@@ -1,0 +1,6 @@
+framework module LPDTableViewKitDemo {
+  umbrella header "LPDTableViewKitDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
