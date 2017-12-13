@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LPDTableViewKitDemo_Example' do
+  pod 'LPDTableViewKitDemo', :path => '../'
+
+  target 'LPDTableViewKitDemo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
